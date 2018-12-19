@@ -23,6 +23,7 @@
       "email": "junmer@foxmail.com"
     }
   ],
+
   "bugs": {
     "url": "https://github.com/kekee000/fonteditor-core/issues"
   },
@@ -32,19 +33,11 @@
       "url": "https://github.com/kekee000/fonteditor-core/raw/master/LICENSE"
     }
   ],
-  "scripts": {
-    "publish_npm": "sh tool/publish-node.sh",
-    "test": "phantomjs test/run-jasmine.js test/SpecRunner.html",
-    "test_node": "sh tool/test-node.sh",
-    "lint": "fecs ./src --reporter=baidu --rule"
-  },
-  "edp": {
-    "main": "src/main",
-    "dependencies": {}
-  },
+
   "dependencies": {
     "xmldom": "~0.1.19"
   },
+
   "repository": {
     "type": "git",
     "url": "git://github.com/kekee000/fonteditor-core.git"
@@ -58,11 +51,5 @@
     "main.js"
   ],
   "main": "main.js",
-  "devDependencies": {
-    "b3b": "0.0.1",
-    "esprima": "^2.4.1",
-    "estraverse": "^4.1.0",
-    "pako": "^0.2.7",
-    "phantomjs": "^1.9.17"
-  }
+
 }
